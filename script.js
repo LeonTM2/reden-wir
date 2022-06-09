@@ -64,7 +64,7 @@ function Frage3() {
         setTimeout(() => Erklärung.innerHTML = "↓ Hier muss deine Antwort hin", 4000);
     } else {
         Antwort3 = Input.value;
-        if (!Antwort2.includes("GUT" || "gut" || "Gut")) {
+        if (!Antwort2.includes("GUT" || "gut" || "Gut")==true) {
             Überschrift.innerHTML = "Frage 4";
             Button.innerHTML = "<button id='button' onclick='Frage4()'>zu Frage 5...</button>";
             Frage.innerHTML = "Ok. Dann eine andere Frage, <strong>hast du schon was für die Ferien geplant?</strong> ☀";
